@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>cn.restaurant.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddWaiter</servlet-name>
+		<servlet-class>cn.restaurant.servlet.AddWaiter</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ReSetWaiterPass</servlet-name>
+		<servlet-class>cn.restaurant.servlet.ReSetWaiterPass</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddFood</servlet-name>
+		<servlet-class>cn.restaurant.servlet.AddFood</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpdateFood</servlet-name>
+		<servlet-class>cn.restaurant.servlet.UpdateFood</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>QueryFood</servlet-name>
+		<servlet-class>cn.restaurant.servlet.QueryFood</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddCombo</servlet-name>
+		<servlet-class>cn.restaurant.servlet.AddCombo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>test</servlet-name>
+		<servlet-class>cn.restaurant.servlet.test</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>QueryCombo</servlet-name>
+		<servlet-class>cn.restaurant.servlet.QueryCombo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpdateCombo</servlet-name>
+		<servlet-class>cn.restaurant.servlet.UpdateCombo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>test1</servlet-name>
+		<servlet-class>cn.restaurant.servlet.test1</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DeleteFood</servlet-name>
+		<servlet-class>cn.restaurant.servlet.DeleteFood</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DeleteCombo</servlet-name>
+		<servlet-class>cn.restaurant.servlet.DeleteCombo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>QueryFoodAsDay</servlet-name>
+		<servlet-class>cn.restaurant.servlet.QueryFoodAsDay</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>QueryFoodAsWeek</servlet-name>
+		<servlet-class>cn.restaurant.servlet.QueryFoodAsWeek</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>QueryFoodAsMonth</servlet-name>
+		<servlet-class>cn.restaurant.servlet.QueryFoodAsMonth</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>QueryWaiter</servlet-name>
+		<servlet-class>cn.restaurant.servlet.QueryWaiter</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>OrderFood</servlet-name>
+		<servlet-class>cn.restaurant.servlet.OrderFood</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>CastMoney</servlet-name>
+		<servlet-class>cn.restaurant.servlet.CastMoney</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>OrderCombo</servlet-name>
+		<servlet-class>cn.restaurant.servlet.OrderCombo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpdateWaiter</servlet-name>
+		<servlet-class>cn.restaurant.servlet.UpdateWaiter</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>BaseServlet</servlet-name>
+	<servlet-class>cn.restaurant.servlet.BaseServlet</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>BaseServlet</servlet-name>
+		<url-pattern>/BaseServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddWaiter</servlet-name>
+		<url-pattern>/AddWaiter</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ReSetWaiterPass</servlet-name>
+		<url-pattern>/ReSetWaiterPass</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddFood</servlet-name>
+		<url-pattern>/AddFood</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateFood</servlet-name>
+		<url-pattern>/UpdateFood</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>QueryFood</servlet-name>
+		<url-pattern>/QueryFood</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddCombo</servlet-name>
+		<url-pattern>/AddCombo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>test</servlet-name>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>QueryCombo</servlet-name>
+		<url-pattern>/QueryCombo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateCombo</servlet-name>
+		<url-pattern>/UpdateCombo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>test1</servlet-name>
+		<url-pattern>/test1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteFood</servlet-name>
+		<url-pattern>/DeleteFood</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteCombo</servlet-name>
+		<url-pattern>/DeleteCombo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>QueryFoodAsDay</servlet-name>
+		<url-pattern>/QueryFoodAsDay</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>QueryFoodAsWeek</servlet-name>
+		<url-pattern>/QueryFoodAsWeek</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>QueryFoodAsMonth</servlet-name>
+		<url-pattern>/QueryFoodAsMonth</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderFood</servlet-name>
+		<url-pattern>/OrderFood</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CastMoney</servlet-name>
+		<url-pattern>/CastMoney</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderCombo</servlet-name>
+		<url-pattern>/OrderCombo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateWaiter</servlet-name>
+		<url-pattern>/UpdateWaiter</url-pattern>
+	</servlet-mapping>
+</web-app>
